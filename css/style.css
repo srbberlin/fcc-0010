@@ -1,0 +1,63 @@
+#container {
+}
+
+#yellow, #red, #blue, #green {
+  width: 45px;
+  height: 45px;
+  border-width: 2px;
+  border-style: solid;
+  opacity: 0.6;
+}
+
+#strict, #start {
+  cursor: pointer;
+}
+
+#strict {
+  fill: gray;
+}
+
+#start {
+  fill: gray;
+}
+
+#back {
+  fill: gray;
+}
+
+#yellow {
+  fill: yellow;
+  border-top-left-radius: 48px;
+}
+
+#red {
+  fill: red;
+  border-top-right-radius: 48px;
+}
+
+#blue {
+  fill: blue;
+  border-bottom-left-radius: 48px;
+}
+
+#green {
+  fill: green;
+  border-bottom-right-radius: 48px;
+}
+
+#cnt {
+  fill: lightgray;
+}
+
+#strictText, #startText, #cntText {
+  font-size: 4px;
+}
+
+#strictText, #startText {
+  fill: white;
+  cursor: pointer;
+}
+
+#cntText {
+  fill: red;
+}
