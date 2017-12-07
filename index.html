@@ -1,41 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - fcc-0010 Simon Game</title>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <head>
+    <meta charset="UTF-8">
+    <title>CodePen - fcc-0010 Simon Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-  <audio id="s1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
-<audio id="s2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
-<audio id="s3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
-<audio id="s4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
-<svg id="container" viewBox="0 0 100 130">
-  <circle id="back" cx="50" cy="70" r="48"/>
-  <path id="yellow" d="M 50 70 l -45   0 a  45  45  0 0 1  45,-45 Z"/>
-  <path id="red"    d="M 50 70 l   0 -45 a  45  45  0 0 1  45,45 Z"/>
-  <path id="blue"   d="M 50 70 l  45   0 a  45  45  0 0 1 -45,45 Z"/>
-  <path id="green"  d="M 50 70 l   0  45 a  45  45  0 0 1 -45,-45 Z"/>
-  <rect id="cons"        x="25" y="60" width="50" height="20" rx="3" ry="3"></rect>
-  <text id="simon"       x="24" y="50">Simon</text>
-  <text id="game"        x="26" y="100">Game</text>
-  <rect id="start"       x="28" y="63" width="20" height="5" rx="1" ry="1"></rect>
-  <text id="startText"   x="33" y="67">Start</text>
-  <rect id="strict"      x="52" y="63" width="20" height="5" rx="1" ry="1"></rect>
-  <text id="strictText"  x="56" y="67">Strict</text>
-  <rect id="cnt"         x="40" y="71" width="20" height="6"></rect>
-  <text id="cntText"     x="46" y="76"></text>
-</svg>
-  
+  <body>
+    <audio id="s1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio id="s2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio id="s3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio id="s4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+    <svg id="container" viewBox="0 0 100 130">
+      <circle id="back" cx="50" cy="70" r="48"/>
+      <path id="yellow" d="M 50 70 l -45   0 a  45  45  0 0 1  45,-45 Z"/>
+      <path id="red"    d="M 50 70 l   0 -45 a  45  45  0 0 1  45,45 Z"/>
+      <path id="blue"   d="M 50 70 l  45   0 a  45  45  0 0 1 -45,45 Z"/>
+      <path id="green"  d="M 50 70 l   0  45 a  45  45  0 0 1 -45,-45 Z"/>
+      <rect id="cons"        x="25" y="60" width="50" height="20" rx="3" ry="3"></rect>
+      <text id="simon"       x="24" y="50">Simon</text>
+      <text id="game"        x="26" y="100">Game</text>
+      <rect id="start"       x="28" y="63" width="20" height="5" rx="1" ry="1"></rect>
+      <text id="startText"   x="33" y="67">Start</text>
+      <rect id="strict"      x="52" y="63" width="20" height="5" rx="1" ry="1"></rect>
+      <text id="strictText"  x="56" y="67">Strict</text>
+      <rect id="cnt"         x="40" y="71" width="20" height="6"></rect>
+      <text id="cntText"     x="46" y="76"></text>
+    </svg>
     <script  src="js/index.js"></script>
-
-</body>
+  </body>
 </html>
