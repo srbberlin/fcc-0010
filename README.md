@@ -1,2 +1,2 @@
 # fcc-0010
-Simon Game
+FreeCodeCamp: Simon Game
