@@ -1,0 +1,12 @@
+{
+  "esversion": 6,
+  "undef": true,
+  "unused": true,
+  "-W032": true,
+  "globals": {
+    "window": true,
+    "true": true,
+    "false": true,
+    "console.log": true
+  }
+}
